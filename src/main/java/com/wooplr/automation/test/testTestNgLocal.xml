@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<suite name="CSV Util Test " parallel="tests"
+	thread-count="1">
+	<!--<listeners>
+		<listener class-name="com.spire.base.reporter.HTMLReporter"/>
+	</listeners>
+	-->
+<!--
+	<parameter name="pool" value="12345678"/>
+	<parameter name="browser" value="chrome"/>
+-->
+
+	<test name="api test">
+
+		<groups>
+
+			<run>
+				<include name="test" />
+			</run>
+			
+		</groups>
+		
+		<classes>
+			<class name="com.spire.automation.test.Test_SpireCsvUtil" />
+		</classes>
+
+	</test>
+
+</suite>

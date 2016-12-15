@@ -29,8 +29,8 @@ public class ChallengeConsumer extends BaseServiceConsumer {
    
 	public enum ResellerActions {
 		Initiate, Complete   
-	}
-   
+	}   
+       
 	/**
 	 * Create a Challenge
 	 * 

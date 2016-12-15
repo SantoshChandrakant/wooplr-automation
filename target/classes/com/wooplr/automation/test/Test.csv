@@ -1,0 +1,3 @@
+SpireTestObject.testCaseId,SpireTestObject.TestTitle,CandidateInfo.value,CandidateInfo.text,empId,empName
+1,test1,,,,
+2,test2,20,Second Name,13,EmpName2
