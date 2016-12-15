@@ -1,0 +1,16 @@
+TestObject.testCaseId,TestObject.testTitle,TestObject.testSteps,EcommerceProductFullJAXB.name,EcommerceProductFullJAXB.description,EcommerceProductFullJAXB.manufacture,EcommerceProductFullJAXB.uniqueId,EcommerceProductFullJAXB.gender,EcommerceProductFullJAXB.categoryName,EcommerceProductFullJAXB.subcategory,EcommerceProductFullJAXB.isNew,EcommerceProductFullJAXB.color,TestObject.exception
+1,createProduct,Create a EcomProduct with all details,Automation_,This is automation-test created product,Flying Machine,Id_,female,Accessories,Hats and Caps,TRUE,Black,NO
+2,createProduct,Create a EcomProduct without giving description,Automation_,,Flying Machine,Id_,female,Accessories,Hats and Caps,TRUE,Black,NO
+3,createProduct,Create a EcomProduct without giving description and manufacturer,Automation_,,,Id_,,Accessories,Hats and Caps,TRUE,Black,NO
+4,createProduct,"Create a EcomProduct without giving category, subcategory and color",Automation_,This is automation-test created product,Flying Machine,Id_,female,,,TRUE,,NO
+5,createProduct,Create a EcomProduct without giving uniqueID,Automation_,This is automation-test created product,Flying Machine,,female,Accessories,Hats and Caps,TRUE,Black,NO
+6,getProduct,Create a product and get the product details by productID,Automation_,This is automation-test created product,Flying Machine,Id_,female,Accessories,Hats and Caps,TRUE,Black,NO
+7,getByInvalidProductId,"Get Product details by giving invalid productId, it should throw proper exception",,,,,,,,,,EXCEPTION
+8,updateProduct,Update name of the product,Auto_Update_,,,,,,,,,NO
+9,updateProduct,Update description of the product,,Update description,,,,,,,,NO
+10,updateProduct,Update unique_id of the product,,,,update_,,,,,,NO
+11,updateProduct,Update gender,,,,,male,,,,,NO
+12,updateProduct,Update category and subcategory of the product,,,,,,Bags,Laptop,,,NO
+13,updateProduct,Update color of the product,,,,,,,,,Blue,NO
+14,deleteProduct,Create a Product and delete it,,,,,,,,,,NO
+15,updateSkuDetails,Create a product and update sku details,,,,,,,,,,

@@ -1,0 +1,19 @@
+TestObject.testCaseId,TestObject.testTitle,TestObject.testSteps,CollectionFormParams.name,CollectionFormParams.shortName,CollectionFormParams.longName,CollectionFormParams.collection_type,CollectionFormParams.description,CollectionFormParams.banner_image,CollectionFormParams.showName,TestObject.exception
+1,createCollection,Create a Collection with all form details,auto_collection,auto_short,auto_long,TREND,auto_desc,test%2Fc%2Fbntuxdfrfuhussgbaum7,CURATOR,NO
+2,createCollection,Create a Collection without shortName,auto_collection,,auto_long,TREND,auto_desc,test%2Fc%2Fbntuxdfrfuhussgbaum7,CURATOR,NO
+3,createCollection,Create a Collection without shortName and longName,auto_collection,,,TREND,auto_desc,test%2Fc%2Fbntuxdfrfuhussgbaum7,CURATOR,NO
+4,createCollection,"Create a Collection without shortName, longName and collection_type",auto_collection,,,,auto_desc,test%2Fc%2Fbntuxdfrfuhussgbaum7,CURATOR,NO
+5,createCollection,"Create a Collection without shortName, longName, collection_type and description",auto_collection,,,,,test%2Fc%2Fbntuxdfrfuhussgbaum7,CURATOR,NO
+6,createCollection,"Create a Collection without shortName, longName, collection_type, description and banner_image",auto_collection,,,,,,CURATOR,NO
+7,createCollection,Create a Collection only by giving name,auto_collection,,,,,,,
+8,getCollection,Create and get Collection by collectionID,auto_collection,auto_short,auto_long,TREND,auto_desc,test%2Fc%2Fbntuxdfrfuhussgbaum7,CURATOR,NO
+9,getByInvalidCollectionID,Create and get Collection by collectionID,,,,,,,,EXCEPTION
+10,deleteCollection,"Create a Collection and delete it and validate by getByCollectionID, it should not show results",auto_collection,auto_short,auto_long,TREND,auto_desc,test%2Fc%2Fbntuxdfrfuhussgbaum7,CURATOR,EXCEPTION
+11,updateCollection,Update collection_name,auto_collection_update,,,,,,CURATOR,NO
+12,updateCollection,Update shortName,,auto_short_update,,,,,CURATOR,NO
+13,updateCollection,Update description,,,,,auto_descr_update,,CURATOR,NO
+14,updateCollection,Update banner_image,,,,,,test%2Fc%2Fbntuxdfrfuhussgbaum7update,CURATOR,NO
+15,updateCollection,"Update collection_name, shortName",auto_collection_update,auto_short_update,,,,,CURATOR,NO
+16,updateCollection,"Update collectionName, description",auto_collection_update,,,,auto_desc_update,,CURATOR,NO
+17,updateCollection,"Update collectionName, banner_image",auto_collection_update,,,,,test%2Fc%2Fbntuxdfrfuhussgbaum7update,CURATOR,NO
+18,updateCollection,"Update collection_name, shortName, description, banner_image",auto_collection_update,auto_short_update,,,auto_desc_update,test%2Fc%2Fbntuxdfrfuhussgbaum7update,CURATOR,NO

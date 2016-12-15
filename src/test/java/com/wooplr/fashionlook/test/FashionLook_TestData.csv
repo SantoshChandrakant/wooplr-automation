@@ -1,0 +1,10 @@
+TestObject.testCaseId,TestObject.testTitle,TestObject.testSteps,TestObject.testData,TestObject.expected,TestObject.exception
+1,postFashionLook,"Post a look by giving existing imagePID in cloud and valid lookText. Give imagePID and lookText as comma sepearetd in TestData""","l/mxp08bjst3h0jne9yjl,look_Automation",FashionLook should be posted and it should return a lookID,NO
+2,postFashionLook,Post a look by giving invalid random imagePID which is not existing in cloud and valid lookText.,"image1234,look_Automation",FashionLook should be posted and it should return a lookID,NO
+3,postFashionLook,Post a look without giving imagePID,"null,look_Automation",FashionLook should be posted and it should return a lookID,NO
+4,postFashionLook,Post a look without giving lookText,"l/mxp08bjst3h0jne9yjl,null",FashionLook should be posted and it should return a lookID,NO
+5,postFashionLook,Post a look without giving imagePID and lookText,"null,null",FashionLook should be posted and it should return a lookID,NO
+6,getFashionLookById,Post a FashionLook and get FashionLook by lookId and validate the response,"l/mxp08bjst3h0jne9yjl,look_Automation",It should display created look details,NO
+7,getFashionLookByInvalidId,Try to get FashionLook by invalid lookID,,It should throw proper exception,EXCEPTION
+8,deleteFashionLook,Create a FashionLook and delete it by LookId and validate deletion by lookID,"l/mxp08bjst3h0jne9yjl,look_Automation",Look should be successfully deleted and whenwe do getByLookID it should throw exception,EXCEPTION
+9,loveLookPost1,Create a FashionLook and Love the Look,"l/mxp08bjst3h0jne9yjl,look_Automation",Love count should be increased to 1,

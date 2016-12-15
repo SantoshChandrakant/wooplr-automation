@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<suite name="EcomProduct_Testcases" parallel="tests" thread-count="1">
+
+	<!-- <listeners>
+		<listener class-name="com.wooplr.base.reporter.WooplrReport" />
+		<listener class-name="com.wooplr.base.controller.TestRetryListener" />
+		<listener class-name="com.wooplr.base.reporter.WooplrEmailReport" />
+	</listeners> -->  
+
+	<parameter name="healthCheck" value="false" />
+
+	<test name="EcomProduct Testscripts - Sanity">
+		<groups>  
+			<run>
+				<include name="updateSkuDetails" />          
+			</run>              
+		</groups>                  
+    
+		<packages>  
+			<package name="com.wooplr.ecomproduct.test" />
+		</packages>
+	</test>  
+      
+</suite>               
+           
+   
+  

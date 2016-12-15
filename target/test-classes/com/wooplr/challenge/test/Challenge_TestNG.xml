@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<suite name="Wooplr_Challenge_Testcases" parallel="tests" thread-count="1">
+
+	 <listeners>
+		<listener class-name="com.wooplr.base.reporter.WooplrReport" />
+		<listener class-name="com.wooplr.base.controller.TestRetryListener" />
+		<listener class-name="com.wooplr.base.reporter.WooplrEmailReport" />
+	</listeners>  
+
+	<parameter name="healthCheck" value="false" />   
+
+	<test name="Wooplr_Challenge Testscripts - Sanity">
+		<groups>  
+			<run>   
+				<include name="challengeFlowTest" />          
+			</run>                
+		</groups>                  
+       
+		<packages>  
+			<package name="com.wooplr.challenge.test" />
+		</packages>
+	</test>  
+      
+</suite>                  
+           
+   
+  

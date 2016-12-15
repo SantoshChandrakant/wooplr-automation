@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<suite name="Wooplr Automation Suite" parallel="tests" thread-count="5">
+
+	<listeners>
+		<listener class-name="com.wooplr.base.reporter.WooplrReport" />
+		<listener class-name="com.wooplr.base.controller.TestRetryListener" />
+		<listener class-name="com.wooplr.base.reporter.WooplrEmailReport" />
+	</listeners>
+
+	<parameter name="healthCheck" value="false" />
+
+	<test name="Wooplr_Look Testscripts - Sanity">
+		<groups>
+			<run>
+				<include name="Sanity" />
+			</run>
+		</groups>   
+
+		<packages>
+			<package name="com.wooplr.fashionlook.test" />
+		</packages>
+	</test>
+
+	<test name="Wooplr_Collection Testscripts - Sanity">
+		<groups>
+			<run>
+				<include name="Sanity" />
+			</run>
+		</groups>
+
+		<packages>
+			<package name="com.wooplr.collection.test" />
+		</packages>
+	</test>
+	
+	<test name="EcomProduct Testscripts - Sanity">
+		<groups>
+			<run>
+				<include name="Sanity" />
+			</run>
+		</groups>
+
+		<packages>
+			<package name="com.wooplr.ecomproduct.test" />
+		</packages>
+	</test>
+	
+	<test name="Wooplr_Challenge Testscripts - Sanity">
+		<groups>
+			<run>
+				<include name="Sanity" />
+			</run>
+		</groups>
+
+		<packages>
+			<package name="com.wooplr.challenge.test" />
+		</packages>
+	</test>
+
+
+</suite>

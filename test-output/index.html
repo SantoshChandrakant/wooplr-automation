@@ -1,0 +1,2568 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 29 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Wooplr_Challenge_Testcases">
+              <span class="suite-name border-failed">Wooplr_Challenge_Testcases</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Wooplr_Challenge_Testcases">
+                    <span>C:\Users\ragin\try\wooplr-automation\src\test\java\com\wooplr\challenge\test\Challenge_TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Wooplr_Challenge_Testcases">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Wooplr_Challenge_Testcases">
+                    <span>11 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Wooplr_Challenge_Testcases">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Wooplr_Challenge_Testcases">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Wooplr_Challenge_Testcases">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Wooplr_Challenge_Testcases">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">47 methods, 29 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Wooplr_Challenge_Testcases" class="hide-methods failed suite-Wooplr_Challenge_Testcases"> (hide)</a> <!-- hide-methods failed suite-Wooplr_Challenge_Testcases -->
+                      <a href="#" panel-name="suite-Wooplr_Challenge_Testcases" class="show-methods failed suite-Wooplr_Challenge_Testcases"> (show)</a> <!-- show-methods failed suite-Wooplr_Challenge_Testcases -->
+                    </span>
+                    <div class="method-list-content failed suite-Wooplr_Challenge_Testcases">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="challengeFlowTest([TestCaseId=35|TestTitle=challengeFlowTest], com.wooplr.bean.ChallengeJAXB@1bcca778)">challengeFlowTest([TestCaseId=35|TestTitle=challengeFlowTest], com.wooplr.bean.ChallengeJAXB@1bcca778)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="deleteChallenge([TestCaseId=17|TestTitle=deleteChallenge], com.wooplr.bean.ChallengeJAXB@3f78efba)">deleteChallenge([TestCaseId=17|TestTitle=deleteChallenge], com.wooplr.bean.ChallengeJAXB@3f78efba)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="listChallengeByAction([TestCaseId=34|TestTitle=listChallengeByAction], null)">listChallengeByAction([TestCaseId=34|TestTitle=listChallengeByAction], null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="listChallengeByAction([TestCaseId=33|TestTitle=listChallengeByAction], null)">listChallengeByAction([TestCaseId=33|TestTitle=listChallengeByAction], null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="listChallengeByAction([TestCaseId=34|TestTitle=listChallengeByAction], null)">listChallengeByAction([TestCaseId=34|TestTitle=listChallengeByAction], null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="listChallengeByAction([TestCaseId=33|TestTitle=listChallengeByAction], null)">listChallengeByAction([TestCaseId=33|TestTitle=listChallengeByAction], null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="listChallengeByAction([TestCaseId=32|TestTitle=listChallengeByAction], null)">listChallengeByAction([TestCaseId=32|TestTitle=listChallengeByAction], null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="makeChallengeLive([TestCaseId=18|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@1af4f5b6)">makeChallengeLive([TestCaseId=18|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@1af4f5b6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="makeChallengeLive([TestCaseId=19|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@59df9cf4)">makeChallengeLive([TestCaseId=19|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@59df9cf4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="makeChallengeLive([TestCaseId=19|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@67454c9e)">makeChallengeLive([TestCaseId=19|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@67454c9e)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="updateChallenge([TestCaseId=29|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3cee09f8)">updateChallenge([TestCaseId=29|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3cee09f8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="updateChallenge([TestCaseId=27|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@7f4f84d5)">updateChallenge([TestCaseId=27|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@7f4f84d5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="updateChallenge([TestCaseId=25|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3f44bc95)">updateChallenge([TestCaseId=25|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3f44bc95)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="updateChallenge([TestCaseId=22|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@665755f5)">updateChallenge([TestCaseId=22|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@665755f5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="updateChallenge([TestCaseId=23|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@20b02ce6)">updateChallenge([TestCaseId=23|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@20b02ce6)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="updateChallenge([TestCaseId=24|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@39ef77c2)">updateChallenge([TestCaseId=24|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@39ef77c2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="updateChallenge([TestCaseId=26|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@5782db47)">updateChallenge([TestCaseId=26|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@5782db47)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="updateChallenge([TestCaseId=23|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@39c4d0cd)">updateChallenge([TestCaseId=23|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@39c4d0cd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="updateChallenge([TestCaseId=28|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@34fbb800)">updateChallenge([TestCaseId=28|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@34fbb800)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="updateChallenge([TestCaseId=21|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@44ec15a4)">updateChallenge([TestCaseId=21|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@44ec15a4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="updateChallenge([TestCaseId=22|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@61d8c8b4)">updateChallenge([TestCaseId=22|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@61d8c8b4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="updateChallenge([TestCaseId=24|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@213709b3)">updateChallenge([TestCaseId=24|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@213709b3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="updateChallenge([TestCaseId=20|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@6f0babe8)">updateChallenge([TestCaseId=20|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@6f0babe8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="updateChallenge([TestCaseId=25|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3de74140)">updateChallenge([TestCaseId=25|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3de74140)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="updateChallenge([TestCaseId=27|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@68c0dad5)">updateChallenge([TestCaseId=27|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@68c0dad5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="updateChallenge([TestCaseId=29|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@5ee429d7)">updateChallenge([TestCaseId=29|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@5ee429d7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="updateChallenge([TestCaseId=26|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@1ef2ea97)">updateChallenge([TestCaseId=26|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@1ef2ea97)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="updateChallenge([TestCaseId=21|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@12d9a936)">updateChallenge([TestCaseId=21|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@12d9a936)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="updateChallenge([TestCaseId=28|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3ea452ad)">updateChallenge([TestCaseId=28|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3ea452ad)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Wooplr_Challenge_Testcases -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Wooplr_Challenge_Testcases" class="hide-methods passed suite-Wooplr_Challenge_Testcases"> (hide)</a> <!-- hide-methods passed suite-Wooplr_Challenge_Testcases -->
+                      <a href="#" panel-name="suite-Wooplr_Challenge_Testcases" class="show-methods passed suite-Wooplr_Challenge_Testcases"> (show)</a> <!-- show-methods passed suite-Wooplr_Challenge_Testcases -->
+                    </span>
+                    <div class="method-list-content passed suite-Wooplr_Challenge_Testcases">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="createChallenge([TestCaseId=9|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@557c6200)">createChallenge([TestCaseId=9|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@557c6200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="createChallenge([TestCaseId=2|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@5ea03ac7)">createChallenge([TestCaseId=2|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@5ea03ac7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="createChallenge([TestCaseId=5|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@6d54c5cd)">createChallenge([TestCaseId=5|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@6d54c5cd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="createChallenge([TestCaseId=1|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@32596d65)">createChallenge([TestCaseId=1|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@32596d65)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="createChallenge([TestCaseId=4|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@17d936e4)">createChallenge([TestCaseId=4|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@17d936e4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="createChallenge([TestCaseId=8|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@6b94760e)">createChallenge([TestCaseId=8|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@6b94760e)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="createChallenge([TestCaseId=10|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@5bcf59f5)">createChallenge([TestCaseId=10|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@5bcf59f5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="createChallenge([TestCaseId=15|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@2d750345)">createChallenge([TestCaseId=15|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@2d750345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="createChallenge([TestCaseId=6|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@2026f78a)">createChallenge([TestCaseId=6|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@2026f78a)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="createChallenge([TestCaseId=13|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@23819b12)">createChallenge([TestCaseId=13|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@23819b12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="createChallenge([TestCaseId=3|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@72b2e481)">createChallenge([TestCaseId=3|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@72b2e481)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="createChallenge([TestCaseId=7|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@4bf35b01)">createChallenge([TestCaseId=7|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@4bf35b01)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="createChallenge([TestCaseId=11|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@58e0ca22)">createChallenge([TestCaseId=11|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@58e0ca22)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="createChallenge([TestCaseId=14|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@6c15933d)">createChallenge([TestCaseId=14|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@6c15933d)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="createChallenge([TestCaseId=12|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@70fc63b4)">createChallenge([TestCaseId=12|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@70fc63b4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="getChallenge([TestCaseId=16|TestTitle=getChallenge], com.wooplr.bean.ChallengeJAXB@42c88952)">getChallenge([TestCaseId=16|TestTitle=getChallenge], com.wooplr.bean.ChallengeJAXB@42c88952)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="listChallenge([TestCaseId=30|TestTitle=listChallenge], null)">listChallenge([TestCaseId=30|TestTitle=listChallenge], null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wooplr_Challenge_Testcases" title="com.wooplr.challenge.test.ChallengeTestPlan" hash-for-method="validateListChallenge([TestCaseId=31|TestTitle=validateListChallenge], null)">validateListChallenge([TestCaseId=31|TestTitle=validateListChallenge], null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Wooplr_Challenge_Testcases -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Wooplr_Challenge_Testcases" class="panel Wooplr_Challenge_Testcases">
+          <div class="suite-Wooplr_Challenge_Testcases-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.wooplr.challenge.test.ChallengeTestPlan</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="challengeFlowTest([TestCaseId=35|TestTitle=challengeFlowTest], com.wooplr.bean.ChallengeJAXB@1bcca778)">
+                  </a> <!-- challengeFlowTest([TestCaseId=35|TestTitle=challengeFlowTest], com.wooplr.bean.ChallengeJAXB@1bcca778) -->
+                  <span class="method-name">challengeFlowTest</span>
+                  <span class="parameters">([TestCaseId=35|TestTitle=challengeFlowTest], com.wooplr.bean.ChallengeJAXB@1bcca778)</span>
+                  <div class="stack-trace">java.lang.AssertionError: ListAdminReviews is giving response as null !! expected object to not be null
+	at com.wooplr.challenge.test.ChallengeTestPlan.challengeFlowTest(ChallengeTestPlan.java:245)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteChallenge([TestCaseId=17|TestTitle=deleteChallenge], com.wooplr.bean.ChallengeJAXB@3f78efba)">
+                  </a> <!-- deleteChallenge([TestCaseId=17|TestTitle=deleteChallenge], com.wooplr.bean.ChallengeJAXB@3f78efba) -->
+                  <span class="method-name">deleteChallenge</span>
+                  <span class="parameters">([TestCaseId=17|TestTitle=deleteChallenge], com.wooplr.bean.ChallengeJAXB@3f78efba)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Showing wrong acknowledgement msg expected [null] but found [No challenge exist for given Id]
+	at com.wooplr.challenge.test.ChallengeTestPlan.deleteChallenge(ChallengeTestPlan.java:106)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listChallengeByAction([TestCaseId=34|TestTitle=listChallengeByAction], null)">
+                  </a> <!-- listChallengeByAction([TestCaseId=34|TestTitle=listChallengeByAction], null) -->
+                  <span class="method-name">listChallengeByAction</span>
+                  <span class="parameters">([TestCaseId=34|TestTitle=listChallengeByAction], null)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Created a challenge as PARTICIPATED, but it is not listed,, challengeId: 6473914906574848 expected [true] but found [false]
+	at com.wooplr.challenge.test.ChallengeTestPlan.listChallengeByAction(ChallengeTestPlan.java:219)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listChallengeByAction([TestCaseId=33|TestTitle=listChallengeByAction], null)">
+                  </a> <!-- listChallengeByAction([TestCaseId=33|TestTitle=listChallengeByAction], null) -->
+                  <span class="method-name">listChallengeByAction</span>
+                  <span class="parameters">([TestCaseId=33|TestTitle=listChallengeByAction], null)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Showing wrong entries in ListChallenges by CURRENTGOING expected [true] but found [false]
+	at com.wooplr.challenge.test.ChallengeHelper.validateTimeStamp(ChallengeHelper.java:116)
+	at com.wooplr.challenge.test.ChallengeTestPlan.listChallengeByAction(ChallengeTestPlan.java:217)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listChallengeByAction([TestCaseId=34|TestTitle=listChallengeByAction], null)">
+                  </a> <!-- listChallengeByAction([TestCaseId=34|TestTitle=listChallengeByAction], null) -->
+                  <span class="method-name">listChallengeByAction</span>
+                  <span class="parameters">([TestCaseId=34|TestTitle=listChallengeByAction], null)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Created a challenge as PARTICIPATED, but it is not listed,, challengeId: 5736673905213440 expected [true] but found [false]
+	at com.wooplr.challenge.test.ChallengeTestPlan.listChallengeByAction(ChallengeTestPlan.java:219)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listChallengeByAction([TestCaseId=33|TestTitle=listChallengeByAction], null)">
+                  </a> <!-- listChallengeByAction([TestCaseId=33|TestTitle=listChallengeByAction], null) -->
+                  <span class="method-name">listChallengeByAction</span>
+                  <span class="parameters">([TestCaseId=33|TestTitle=listChallengeByAction], null)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Showing wrong entries in ListChallenges by CURRENTGOING expected [true] but found [false]
+	at com.wooplr.challenge.test.ChallengeHelper.validateTimeStamp(ChallengeHelper.java:116)
+	at com.wooplr.challenge.test.ChallengeTestPlan.listChallengeByAction(ChallengeTestPlan.java:217)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listChallengeByAction([TestCaseId=32|TestTitle=listChallengeByAction], null)">
+                  </a> <!-- listChallengeByAction([TestCaseId=32|TestTitle=listChallengeByAction], null) -->
+                  <span class="method-name">listChallengeByAction</span>
+                  <span class="parameters">([TestCaseId=32|TestTitle=listChallengeByAction], null)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Showing wrong entries in ListChallenges by PARTICIPATED expected [true] but found [false]
+	at com.wooplr.challenge.test.ChallengeHelper.validateTimeStamp(ChallengeHelper.java:112)
+	at com.wooplr.challenge.test.ChallengeTestPlan.listChallengeByAction(ChallengeTestPlan.java:217)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="makeChallengeLive([TestCaseId=18|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@1af4f5b6)">
+                  </a> <!-- makeChallengeLive([TestCaseId=18|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@1af4f5b6) -->
+                  <span class="method-name">makeChallengeLive</span>
+                  <span class="parameters">([TestCaseId=18|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@1af4f5b6)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.wooplr.challenge.test.ChallengeTestPlan.makeChallengeLive(ChallengeTestPlan.java:123)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="makeChallengeLive([TestCaseId=19|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@59df9cf4)">
+                  </a> <!-- makeChallengeLive([TestCaseId=19|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@59df9cf4) -->
+                  <span class="method-name">makeChallengeLive</span>
+                  <span class="parameters">([TestCaseId=19|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@59df9cf4)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.wooplr.challenge.test.ChallengeTestPlan.makeChallengeLive(ChallengeTestPlan.java:123)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="makeChallengeLive([TestCaseId=19|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@67454c9e)">
+                  </a> <!-- makeChallengeLive([TestCaseId=19|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@67454c9e) -->
+                  <span class="method-name">makeChallengeLive</span>
+                  <span class="parameters">([TestCaseId=19|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@67454c9e)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.wooplr.challenge.test.ChallengeTestPlan.makeChallengeLive(ChallengeTestPlan.java:123)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateChallenge([TestCaseId=29|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3cee09f8)">
+                  </a> <!-- updateChallenge([TestCaseId=29|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3cee09f8) -->
+                  <span class="method-name">updateChallenge</span>
+                  <span class="parameters">([TestCaseId=29|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3cee09f8)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response body is coming null !! expected object to not be null
+	at com.wooplr.challenge.test.ChallengeHelper.validatechallenge(ChallengeHelper.java:19)
+	at com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(ChallengeTestPlan.java:155)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateChallenge([TestCaseId=27|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@7f4f84d5)">
+                  </a> <!-- updateChallenge([TestCaseId=27|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@7f4f84d5) -->
+                  <span class="method-name">updateChallenge</span>
+                  <span class="parameters">([TestCaseId=27|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@7f4f84d5)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response body is coming null !! expected object to not be null
+	at com.wooplr.challenge.test.ChallengeHelper.validatechallenge(ChallengeHelper.java:19)
+	at com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(ChallengeTestPlan.java:155)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateChallenge([TestCaseId=25|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3f44bc95)">
+                  </a> <!-- updateChallenge([TestCaseId=25|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3f44bc95) -->
+                  <span class="method-name">updateChallenge</span>
+                  <span class="parameters">([TestCaseId=25|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3f44bc95)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response body is coming null !! expected object to not be null
+	at com.wooplr.challenge.test.ChallengeHelper.validatechallenge(ChallengeHelper.java:19)
+	at com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(ChallengeTestPlan.java:155)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateChallenge([TestCaseId=22|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@665755f5)">
+                  </a> <!-- updateChallenge([TestCaseId=22|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@665755f5) -->
+                  <span class="method-name">updateChallenge</span>
+                  <span class="parameters">([TestCaseId=22|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@665755f5)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response body is coming null !! expected object to not be null
+	at com.wooplr.challenge.test.ChallengeHelper.validatechallenge(ChallengeHelper.java:19)
+	at com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(ChallengeTestPlan.java:155)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateChallenge([TestCaseId=23|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@20b02ce6)">
+                  </a> <!-- updateChallenge([TestCaseId=23|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@20b02ce6) -->
+                  <span class="method-name">updateChallenge</span>
+                  <span class="parameters">([TestCaseId=23|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@20b02ce6)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response body is coming null !! expected object to not be null
+	at com.wooplr.challenge.test.ChallengeHelper.validatechallenge(ChallengeHelper.java:19)
+	at com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(ChallengeTestPlan.java:155)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateChallenge([TestCaseId=24|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@39ef77c2)">
+                  </a> <!-- updateChallenge([TestCaseId=24|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@39ef77c2) -->
+                  <span class="method-name">updateChallenge</span>
+                  <span class="parameters">([TestCaseId=24|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@39ef77c2)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response body is coming null !! expected object to not be null
+	at com.wooplr.challenge.test.ChallengeHelper.validatechallenge(ChallengeHelper.java:19)
+	at com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(ChallengeTestPlan.java:155)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateChallenge([TestCaseId=26|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@5782db47)">
+                  </a> <!-- updateChallenge([TestCaseId=26|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@5782db47) -->
+                  <span class="method-name">updateChallenge</span>
+                  <span class="parameters">([TestCaseId=26|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@5782db47)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response body is coming null !! expected object to not be null
+	at com.wooplr.challenge.test.ChallengeHelper.validatechallenge(ChallengeHelper.java:19)
+	at com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(ChallengeTestPlan.java:155)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateChallenge([TestCaseId=23|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@39c4d0cd)">
+                  </a> <!-- updateChallenge([TestCaseId=23|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@39c4d0cd) -->
+                  <span class="method-name">updateChallenge</span>
+                  <span class="parameters">([TestCaseId=23|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@39c4d0cd)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response body is coming null !! expected object to not be null
+	at com.wooplr.challenge.test.ChallengeHelper.validatechallenge(ChallengeHelper.java:19)
+	at com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(ChallengeTestPlan.java:155)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateChallenge([TestCaseId=28|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@34fbb800)">
+                  </a> <!-- updateChallenge([TestCaseId=28|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@34fbb800) -->
+                  <span class="method-name">updateChallenge</span>
+                  <span class="parameters">([TestCaseId=28|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@34fbb800)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response body is coming null !! expected object to not be null
+	at com.wooplr.challenge.test.ChallengeHelper.validatechallenge(ChallengeHelper.java:19)
+	at com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(ChallengeTestPlan.java:155)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateChallenge([TestCaseId=21|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@44ec15a4)">
+                  </a> <!-- updateChallenge([TestCaseId=21|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@44ec15a4) -->
+                  <span class="method-name">updateChallenge</span>
+                  <span class="parameters">([TestCaseId=21|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@44ec15a4)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response body is coming null !! expected object to not be null
+	at com.wooplr.challenge.test.ChallengeHelper.validatechallenge(ChallengeHelper.java:19)
+	at com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(ChallengeTestPlan.java:155)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateChallenge([TestCaseId=22|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@61d8c8b4)">
+                  </a> <!-- updateChallenge([TestCaseId=22|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@61d8c8b4) -->
+                  <span class="method-name">updateChallenge</span>
+                  <span class="parameters">([TestCaseId=22|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@61d8c8b4)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response body is coming null !! expected object to not be null
+	at com.wooplr.challenge.test.ChallengeHelper.validatechallenge(ChallengeHelper.java:19)
+	at com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(ChallengeTestPlan.java:155)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateChallenge([TestCaseId=24|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@213709b3)">
+                  </a> <!-- updateChallenge([TestCaseId=24|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@213709b3) -->
+                  <span class="method-name">updateChallenge</span>
+                  <span class="parameters">([TestCaseId=24|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@213709b3)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response body is coming null !! expected object to not be null
+	at com.wooplr.challenge.test.ChallengeHelper.validatechallenge(ChallengeHelper.java:19)
+	at com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(ChallengeTestPlan.java:155)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateChallenge([TestCaseId=20|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@6f0babe8)">
+                  </a> <!-- updateChallenge([TestCaseId=20|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@6f0babe8) -->
+                  <span class="method-name">updateChallenge</span>
+                  <span class="parameters">([TestCaseId=20|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@6f0babe8)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response body is coming null !! expected object to not be null
+	at com.wooplr.challenge.test.ChallengeHelper.validatechallenge(ChallengeHelper.java:19)
+	at com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(ChallengeTestPlan.java:155)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateChallenge([TestCaseId=25|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3de74140)">
+                  </a> <!-- updateChallenge([TestCaseId=25|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3de74140) -->
+                  <span class="method-name">updateChallenge</span>
+                  <span class="parameters">([TestCaseId=25|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3de74140)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response body is coming null !! expected object to not be null
+	at com.wooplr.challenge.test.ChallengeHelper.validatechallenge(ChallengeHelper.java:19)
+	at com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(ChallengeTestPlan.java:155)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateChallenge([TestCaseId=27|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@68c0dad5)">
+                  </a> <!-- updateChallenge([TestCaseId=27|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@68c0dad5) -->
+                  <span class="method-name">updateChallenge</span>
+                  <span class="parameters">([TestCaseId=27|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@68c0dad5)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response body is coming null !! expected object to not be null
+	at com.wooplr.challenge.test.ChallengeHelper.validatechallenge(ChallengeHelper.java:19)
+	at com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(ChallengeTestPlan.java:155)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateChallenge([TestCaseId=29|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@5ee429d7)">
+                  </a> <!-- updateChallenge([TestCaseId=29|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@5ee429d7) -->
+                  <span class="method-name">updateChallenge</span>
+                  <span class="parameters">([TestCaseId=29|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@5ee429d7)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response body is coming null !! expected object to not be null
+	at com.wooplr.challenge.test.ChallengeHelper.validatechallenge(ChallengeHelper.java:19)
+	at com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(ChallengeTestPlan.java:155)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateChallenge([TestCaseId=26|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@1ef2ea97)">
+                  </a> <!-- updateChallenge([TestCaseId=26|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@1ef2ea97) -->
+                  <span class="method-name">updateChallenge</span>
+                  <span class="parameters">([TestCaseId=26|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@1ef2ea97)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response body is coming null !! expected object to not be null
+	at com.wooplr.challenge.test.ChallengeHelper.validatechallenge(ChallengeHelper.java:19)
+	at com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(ChallengeTestPlan.java:155)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateChallenge([TestCaseId=21|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@12d9a936)">
+                  </a> <!-- updateChallenge([TestCaseId=21|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@12d9a936) -->
+                  <span class="method-name">updateChallenge</span>
+                  <span class="parameters">([TestCaseId=21|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@12d9a936)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response body is coming null !! expected object to not be null
+	at com.wooplr.challenge.test.ChallengeHelper.validatechallenge(ChallengeHelper.java:19)
+	at com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(ChallengeTestPlan.java:155)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateChallenge([TestCaseId=28|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3ea452ad)">
+                  </a> <!-- updateChallenge([TestCaseId=28|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3ea452ad) -->
+                  <span class="method-name">updateChallenge</span>
+                  <span class="parameters">([TestCaseId=28|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3ea452ad)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Response body is coming null !! expected object to not be null
+	at com.wooplr.challenge.test.ChallengeHelper.validatechallenge(ChallengeHelper.java:19)
+	at com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(ChallengeTestPlan.java:155)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Wooplr_Challenge_Testcases-class-failed -->
+          <div class="suite-Wooplr_Challenge_Testcases-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.wooplr.challenge.test.ChallengeTestPlan</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createChallenge([TestCaseId=9|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@557c6200)">
+                  </a> <!-- createChallenge([TestCaseId=9|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@557c6200) -->
+                  <span class="method-name">createChallenge</span>
+                  <span class="parameters">([TestCaseId=9|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@557c6200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createChallenge([TestCaseId=2|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@5ea03ac7)">
+                  </a> <!-- createChallenge([TestCaseId=2|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@5ea03ac7) -->
+                  <span class="method-name">createChallenge</span>
+                  <span class="parameters">([TestCaseId=2|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@5ea03ac7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createChallenge([TestCaseId=5|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@6d54c5cd)">
+                  </a> <!-- createChallenge([TestCaseId=5|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@6d54c5cd) -->
+                  <span class="method-name">createChallenge</span>
+                  <span class="parameters">([TestCaseId=5|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@6d54c5cd)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createChallenge([TestCaseId=1|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@32596d65)">
+                  </a> <!-- createChallenge([TestCaseId=1|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@32596d65) -->
+                  <span class="method-name">createChallenge</span>
+                  <span class="parameters">([TestCaseId=1|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@32596d65)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createChallenge([TestCaseId=4|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@17d936e4)">
+                  </a> <!-- createChallenge([TestCaseId=4|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@17d936e4) -->
+                  <span class="method-name">createChallenge</span>
+                  <span class="parameters">([TestCaseId=4|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@17d936e4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createChallenge([TestCaseId=8|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@6b94760e)">
+                  </a> <!-- createChallenge([TestCaseId=8|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@6b94760e) -->
+                  <span class="method-name">createChallenge</span>
+                  <span class="parameters">([TestCaseId=8|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@6b94760e)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createChallenge([TestCaseId=10|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@5bcf59f5)">
+                  </a> <!-- createChallenge([TestCaseId=10|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@5bcf59f5) -->
+                  <span class="method-name">createChallenge</span>
+                  <span class="parameters">([TestCaseId=10|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@5bcf59f5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createChallenge([TestCaseId=15|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@2d750345)">
+                  </a> <!-- createChallenge([TestCaseId=15|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@2d750345) -->
+                  <span class="method-name">createChallenge</span>
+                  <span class="parameters">([TestCaseId=15|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@2d750345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createChallenge([TestCaseId=6|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@2026f78a)">
+                  </a> <!-- createChallenge([TestCaseId=6|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@2026f78a) -->
+                  <span class="method-name">createChallenge</span>
+                  <span class="parameters">([TestCaseId=6|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@2026f78a)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createChallenge([TestCaseId=13|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@23819b12)">
+                  </a> <!-- createChallenge([TestCaseId=13|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@23819b12) -->
+                  <span class="method-name">createChallenge</span>
+                  <span class="parameters">([TestCaseId=13|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@23819b12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createChallenge([TestCaseId=3|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@72b2e481)">
+                  </a> <!-- createChallenge([TestCaseId=3|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@72b2e481) -->
+                  <span class="method-name">createChallenge</span>
+                  <span class="parameters">([TestCaseId=3|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@72b2e481)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createChallenge([TestCaseId=7|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@4bf35b01)">
+                  </a> <!-- createChallenge([TestCaseId=7|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@4bf35b01) -->
+                  <span class="method-name">createChallenge</span>
+                  <span class="parameters">([TestCaseId=7|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@4bf35b01)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createChallenge([TestCaseId=11|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@58e0ca22)">
+                  </a> <!-- createChallenge([TestCaseId=11|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@58e0ca22) -->
+                  <span class="method-name">createChallenge</span>
+                  <span class="parameters">([TestCaseId=11|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@58e0ca22)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createChallenge([TestCaseId=14|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@6c15933d)">
+                  </a> <!-- createChallenge([TestCaseId=14|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@6c15933d) -->
+                  <span class="method-name">createChallenge</span>
+                  <span class="parameters">([TestCaseId=14|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@6c15933d)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createChallenge([TestCaseId=12|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@70fc63b4)">
+                  </a> <!-- createChallenge([TestCaseId=12|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@70fc63b4) -->
+                  <span class="method-name">createChallenge</span>
+                  <span class="parameters">([TestCaseId=12|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@70fc63b4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getChallenge([TestCaseId=16|TestTitle=getChallenge], com.wooplr.bean.ChallengeJAXB@42c88952)">
+                  </a> <!-- getChallenge([TestCaseId=16|TestTitle=getChallenge], com.wooplr.bean.ChallengeJAXB@42c88952) -->
+                  <span class="method-name">getChallenge</span>
+                  <span class="parameters">([TestCaseId=16|TestTitle=getChallenge], com.wooplr.bean.ChallengeJAXB@42c88952)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listChallenge([TestCaseId=30|TestTitle=listChallenge], null)">
+                  </a> <!-- listChallenge([TestCaseId=30|TestTitle=listChallenge], null) -->
+                  <span class="method-name">listChallenge</span>
+                  <span class="parameters">([TestCaseId=30|TestTitle=listChallenge], null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateListChallenge([TestCaseId=31|TestTitle=validateListChallenge], null)">
+                  </a> <!-- validateListChallenge([TestCaseId=31|TestTitle=validateListChallenge], null) -->
+                  <span class="method-name">validateListChallenge</span>
+                  <span class="parameters">([TestCaseId=31|TestTitle=validateListChallenge], null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Wooplr_Challenge_Testcases-class-passed -->
+        </div> <!-- panel Wooplr_Challenge_Testcases -->
+        <div panel-name="test-xml-Wooplr_Challenge_Testcases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ragin\try\wooplr-automation\src\test\java\com\wooplr\challenge\test\Challenge_TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Wooplr_Challenge_Testcases&quot; parallel=&quot;tests&quot;&gt;
+  &lt;parameter name=&quot;healthCheck&quot; value=&quot;false&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.wooplr.base.reporter.WooplrReport&quot;/&gt;
+    &lt;listener class-name=&quot;com.wooplr.base.controller.TestRetryListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.wooplr.base.reporter.WooplrEmailReport&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Wooplr_Challenge Testscripts - Sanity&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Sanity&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.wooplr.challenge.test&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.wooplr.challenge.test.ChallengeHelper&quot;/&gt;
+      &lt;class name=&quot;com.wooplr.challenge.test.ChallengeTestPlan&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Wooplr_Challenge Testscripts - Sanity --&gt;
+&lt;/suite&gt; &lt;!-- Wooplr_Challenge_Testcases --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Wooplr_Challenge_Testcases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Wooplr_Challenge_Testcases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Wooplr_Challenge Testscripts - Sanity (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Wooplr_Challenge_Testcases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Wooplr_Challenge_Testcases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">SANITY</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">challengeFlowTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createChallenge</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">deleteChallenge</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getChallenge</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">listChallenge</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">listChallengeByAction</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">makeChallengeLive</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">updateChallenge</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateListChallenge</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">challengeFlowTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createChallenge</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">deleteChallenge</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getChallenge</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">listChallenge</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">listChallengeByAction</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">makeChallengeLive</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">updateChallenge</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateListChallenge</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">challengeFlowTest</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">challengeFlowTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">createChallenge</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">createChallenge</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">deleteChallenge</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">deleteChallenge</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">getChallenge</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">getChallenge</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">listChallenge</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">listChallenge</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">listChallengeByAction</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">listChallengeByAction</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">makeChallengeLive</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">makeChallengeLive</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">updateChallenge</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">updateChallenge</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">validateListChallenge</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateListChallenge</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Wooplr_Challenge_Testcases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Wooplr_Challenge_Testcases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Wooplr_Challenge_Testcases');
+function tableData_Wooplr_Challenge_Testcases() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(47);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'listChallenge')
+data.setCell(0, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(0, 3, 7387);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'challengeFlowTest')
+data.setCell(1, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(1, 3, 5297);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'makeChallengeLive')
+data.setCell(2, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(2, 3, 3625);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'updateChallenge')
+data.setCell(3, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(3, 3, 3514);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'updateChallenge')
+data.setCell(4, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(4, 3, 3324);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'makeChallengeLive')
+data.setCell(5, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(5, 3, 2343);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'makeChallengeLive')
+data.setCell(6, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(6, 3, 1867);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createChallenge')
+data.setCell(7, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(7, 3, 1755);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'updateChallenge')
+data.setCell(8, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(8, 3, 1691);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'updateChallenge')
+data.setCell(9, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(9, 3, 1655);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'updateChallenge')
+data.setCell(10, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(10, 3, 1651);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'updateChallenge')
+data.setCell(11, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(11, 3, 1648);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'deleteChallenge')
+data.setCell(12, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(12, 3, 1622);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'updateChallenge')
+data.setCell(13, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(13, 3, 1611);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'updateChallenge')
+data.setCell(14, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(14, 3, 1539);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'getChallenge')
+data.setCell(15, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(15, 3, 1526);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'updateChallenge')
+data.setCell(16, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(16, 3, 1489);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'updateChallenge')
+data.setCell(17, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(17, 3, 1449);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'updateChallenge')
+data.setCell(18, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(18, 3, 1441);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'listChallengeByAction')
+data.setCell(19, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(19, 3, 1395);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'createChallenge')
+data.setCell(20, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(20, 3, 1380);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'updateChallenge')
+data.setCell(21, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(21, 3, 1370);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'listChallengeByAction')
+data.setCell(22, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(22, 3, 1361);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'updateChallenge')
+data.setCell(23, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(23, 3, 1330);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'updateChallenge')
+data.setCell(24, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(24, 3, 1325);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'updateChallenge')
+data.setCell(25, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(25, 3, 1314);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'updateChallenge')
+data.setCell(26, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(26, 3, 1306);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'createChallenge')
+data.setCell(27, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(27, 3, 1287);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'listChallengeByAction')
+data.setCell(28, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(28, 3, 1278);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'updateChallenge')
+data.setCell(29, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(29, 3, 1273);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'updateChallenge')
+data.setCell(30, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(30, 3, 1255);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'listChallengeByAction')
+data.setCell(31, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(31, 3, 1253);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'validateListChallenge')
+data.setCell(32, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(32, 3, 1228);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'updateChallenge')
+data.setCell(33, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(33, 3, 1224);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'createChallenge')
+data.setCell(34, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(34, 3, 1171);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'createChallenge')
+data.setCell(35, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(35, 3, 1143);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'createChallenge')
+data.setCell(36, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(36, 3, 1050);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'createChallenge')
+data.setCell(37, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(37, 3, 1048);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'createChallenge')
+data.setCell(38, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(38, 3, 1028);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'createChallenge')
+data.setCell(39, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(39, 3, 1027);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'createChallenge')
+data.setCell(40, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(40, 3, 1026);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'createChallenge')
+data.setCell(41, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(41, 3, 1000);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'createChallenge')
+data.setCell(42, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(42, 3, 968);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'createChallenge')
+data.setCell(43, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(43, 3, 960);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'createChallenge')
+data.setCell(44, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(44, 3, 959);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'createChallenge')
+data.setCell(45, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(45, 3, 957);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'listChallengeByAction')
+data.setCell(46, 2, 'com.wooplr.challenge.test.ChallengeTestPlan')
+data.setCell(46, 3, 909);
+window.suiteTableData['Wooplr_Challenge_Testcases']= { tableData: data, tableDiv: 'times-div-Wooplr_Challenge_Testcases'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Wooplr_Challenge_Testcases">
+              </div> <!-- times-div-Wooplr_Challenge_Testcases -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Wooplr_Challenge_Testcases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Wooplr_Challenge_Testcases</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Wooplr_Challenge_Testcases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Wooplr_Challenge_Testcases" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wooplr.challenge.test.ChallengeTestPlan</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeTestSuite(org.testng.TestRunner@4088ead1)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(org.testng.TestRunner@4088ead1, [Test: "Wooplr_Challenge Testscripts - Sanity" verbose:1[parameters:...)</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=35|TestTitle=challengeFlowTest], com.wooplr.bean.ChallengeJAXB@2c124bb9], public void c...)</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">challengeFlowTest([TestCaseId=35|TestTitle=challengeFlowTest], com.wooplr.bean.ChallengeJAXB@2c124bb9)</span>
+                <span class="method-start">47 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=challengeFlowTest status=FAILURE method=ChallengeTestPlan.challengeFlowTest(com.woo...)</span>
+                <span class="method-start">5737 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=challengeFlowTest status=FAILURE method=ChallengeTestPlan.challengeFlowTest(com.woo...)</span>
+                <span class="method-start">5738 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.challengeFlowTest(com.wooplr.base.util.inter...)</span>
+                <span class="method-start">5738 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=35|TestTitle=challengeFlowTest], com.wooplr.bean.ChallengeJAXB@1bcca778], public void c...)</span>
+                <span class="method-start">5747 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">challengeFlowTest([TestCaseId=35|TestTitle=challengeFlowTest], com.wooplr.bean.ChallengeJAXB@1bcca778)</span>
+                <span class="method-start">5748 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=challengeFlowTest status=FAILURE method=ChallengeTestPlan.challengeFlowTest(com.woo...)</span>
+                <span class="method-start">11058 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=challengeFlowTest status=FAILURE method=ChallengeTestPlan.challengeFlowTest(com.woo...)</span>
+                <span class="method-start">11059 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.challengeFlowTest(com.wooplr.base.util.inter...)</span>
+                <span class="method-start">11061 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=1|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@32596d65], public void com....)</span>
+                <span class="method-start">11095 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createChallenge([TestCaseId=1|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@32596d65)</span>
+                <span class="method-start">11096 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">12482 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">12482 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.createChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">12483 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=2|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@5ea03ac7], public void com....)</span>
+                <span class="method-start">12485 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createChallenge([TestCaseId=2|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@5ea03ac7)</span>
+                <span class="method-start">12488 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">13633 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">13633 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.createChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">13633 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=3|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@72b2e481], public void com....)</span>
+                <span class="method-start">13634 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createChallenge([TestCaseId=3|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@72b2e481)</span>
+                <span class="method-start">13635 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">14668 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">14669 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.createChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">14670 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=4|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@17d936e4], public void com....)</span>
+                <span class="method-start">14671 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createChallenge([TestCaseId=4|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@17d936e4)</span>
+                <span class="method-start">14674 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">15728 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">15728 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.createChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">15728 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=5|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@6d54c5cd], public void com....)</span>
+                <span class="method-start">15729 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createChallenge([TestCaseId=5|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@6d54c5cd)</span>
+                <span class="method-start">15730 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">16691 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">16692 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.createChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">16692 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=6|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@2026f78a], public void com....)</span>
+                <span class="method-start">16694 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createChallenge([TestCaseId=6|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@2026f78a)</span>
+                <span class="method-start">16695 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">17987 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">17988 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.createChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">17989 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=7|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@4bf35b01], public void com....)</span>
+                <span class="method-start">17990 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createChallenge([TestCaseId=7|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@4bf35b01)</span>
+                <span class="method-start">17992 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">19026 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">19027 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.createChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">19027 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=8|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@6b94760e], public void com....)</span>
+                <span class="method-start">19029 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createChallenge([TestCaseId=8|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@6b94760e)</span>
+                <span class="method-start">19031 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">20063 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">20063 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.createChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">20064 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=9|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@557c6200], public void com....)</span>
+                <span class="method-start">20065 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createChallenge([TestCaseId=9|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@557c6200)</span>
+                <span class="method-start">20067 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">21032 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">21033 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.createChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">21034 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=10|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@5bcf59f5], public void com...)</span>
+                <span class="method-start">21035 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createChallenge([TestCaseId=10|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@5bcf59f5)</span>
+                <span class="method-start">21038 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">22042 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">22043 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.createChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">22043 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=11|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@58e0ca22], public void com...)</span>
+                <span class="method-start">22044 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createChallenge([TestCaseId=11|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@58e0ca22)</span>
+                <span class="method-start">22046 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">23222 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">23223 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.createChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">23223 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=12|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@70fc63b4], public void com...)</span>
+                <span class="method-start">23224 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createChallenge([TestCaseId=12|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@70fc63b4)</span>
+                <span class="method-start">23226 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">24279 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">24279 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.createChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">24279 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=13|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@23819b12], public void com...)</span>
+                <span class="method-start">24281 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createChallenge([TestCaseId=13|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@23819b12)</span>
+                <span class="method-start">24282 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">25244 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">25245 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.createChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">25245 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=14|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@6c15933d], public void com...)</span>
+                <span class="method-start">25247 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createChallenge([TestCaseId=14|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@6c15933d)</span>
+                <span class="method-start">25250 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">26222 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">26223 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.createChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">26226 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=15|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@2d750345], public void com...)</span>
+                <span class="method-start">26228 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createChallenge([TestCaseId=15|TestTitle=createChallenge], com.wooplr.bean.ChallengeJAXB@2d750345)</span>
+                <span class="method-start">26229 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">27987 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=createChallenge status=SUCCESS method=ChallengeTestPlan.createChallenge(com.wooplr....)</span>
+                <span class="method-start">27987 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.createChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">27987 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=17|TestTitle=deleteChallenge], com.wooplr.bean.ChallengeJAXB@27097bd5], public void com...)</span>
+                <span class="method-start">27995 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteChallenge([TestCaseId=17|TestTitle=deleteChallenge], com.wooplr.bean.ChallengeJAXB@27097bd5)</span>
+                <span class="method-start">27996 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=deleteChallenge status=FAILURE method=ChallengeTestPlan.deleteChallenge(com.wooplr....)</span>
+                <span class="method-start">29479 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=deleteChallenge status=FAILURE method=ChallengeTestPlan.deleteChallenge(com.wooplr....)</span>
+                <span class="method-start">29480 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.deleteChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">29480 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=17|TestTitle=deleteChallenge], com.wooplr.bean.ChallengeJAXB@3f78efba], public void com...)</span>
+                <span class="method-start">29489 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">deleteChallenge([TestCaseId=17|TestTitle=deleteChallenge], com.wooplr.bean.ChallengeJAXB@3f78efba)</span>
+                <span class="method-start">29491 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=deleteChallenge status=FAILURE method=ChallengeTestPlan.deleteChallenge(com.wooplr....)</span>
+                <span class="method-start">31115 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=deleteChallenge status=FAILURE method=ChallengeTestPlan.deleteChallenge(com.wooplr....)</span>
+                <span class="method-start">31115 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.deleteChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">31115 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=16|TestTitle=getChallenge], com.wooplr.bean.ChallengeJAXB@42c88952], public void com.wo...)</span>
+                <span class="method-start">31120 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getChallenge([TestCaseId=16|TestTitle=getChallenge], com.wooplr.bean.ChallengeJAXB@42c88952)</span>
+                <span class="method-start">31121 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=getChallenge status=SUCCESS method=ChallengeTestPlan.getChallenge(com.wooplr.base.u...)</span>
+                <span class="method-start">32652 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=getChallenge status=SUCCESS method=ChallengeTestPlan.getChallenge(com.wooplr.base.u...)</span>
+                <span class="method-start">32652 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.getChallenge(com.wooplr.base.util.internal.e...)</span>
+                <span class="method-start">32653 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=30|TestTitle=listChallenge], null], public void com.wooplr.challenge.test.ChallengeTest...)</span>
+                <span class="method-start">32661 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">listChallenge([TestCaseId=30|TestTitle=listChallenge], null)</span>
+                <span class="method-start">32662 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=listChallenge status=SUCCESS method=ChallengeTestPlan.listChallenge(com.wooplr.base...)</span>
+                <span class="method-start">40053 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=listChallenge status=SUCCESS method=ChallengeTestPlan.listChallenge(com.wooplr.base...)</span>
+                <span class="method-start">40054 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.listChallenge(com.wooplr.base.util.internal....)</span>
+                <span class="method-start">40055 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=32|TestTitle=listChallengeByAction], null], public void com.wooplr.challenge.test.Chall...)</span>
+                <span class="method-start">40066 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">listChallengeByAction([TestCaseId=32|TestTitle=listChallengeByAction], null)</span>
+                <span class="method-start">40067 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=listChallengeByAction status=FAILURE method=ChallengeTestPlan.listChallengeByAction...)</span>
+                <span class="method-start">41023 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=listChallengeByAction status=FAILURE method=ChallengeTestPlan.listChallengeByAction...)</span>
+                <span class="method-start">41024 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.listChallengeByAction(com.wooplr.base.util.i...)</span>
+                <span class="method-start">41025 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=32|TestTitle=listChallengeByAction], null], public void com.wooplr.challenge.test.Chall...)</span>
+                <span class="method-start">41035 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">listChallengeByAction([TestCaseId=32|TestTitle=listChallengeByAction], null)</span>
+                <span class="method-start">41037 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=listChallengeByAction status=FAILURE method=ChallengeTestPlan.listChallengeByAction...)</span>
+                <span class="method-start">42403 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=listChallengeByAction status=FAILURE method=ChallengeTestPlan.listChallengeByAction...)</span>
+                <span class="method-start">42404 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.listChallengeByAction(com.wooplr.base.util.i...)</span>
+                <span class="method-start">42405 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=33|TestTitle=listChallengeByAction], null], public void com.wooplr.challenge.test.Chall...)</span>
+                <span class="method-start">42406 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">listChallengeByAction([TestCaseId=33|TestTitle=listChallengeByAction], null)</span>
+                <span class="method-start">42408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=listChallengeByAction status=FAILURE method=ChallengeTestPlan.listChallengeByAction...)</span>
+                <span class="method-start">43818 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=listChallengeByAction status=FAILURE method=ChallengeTestPlan.listChallengeByAction...)</span>
+                <span class="method-start">43819 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.listChallengeByAction(com.wooplr.base.util.i...)</span>
+                <span class="method-start">43820 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=33|TestTitle=listChallengeByAction], null], public void com.wooplr.challenge.test.Chall...)</span>
+                <span class="method-start">43837 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">listChallengeByAction([TestCaseId=33|TestTitle=listChallengeByAction], null)</span>
+                <span class="method-start">43841 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=listChallengeByAction status=FAILURE method=ChallengeTestPlan.listChallengeByAction...)</span>
+                <span class="method-start">45106 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=listChallengeByAction status=FAILURE method=ChallengeTestPlan.listChallengeByAction...)</span>
+                <span class="method-start">45107 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.listChallengeByAction(com.wooplr.base.util.i...)</span>
+                <span class="method-start">45108 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=34|TestTitle=listChallengeByAction], null], public void com.wooplr.challenge.test.Chall...)</span>
+                <span class="method-start">45111 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">listChallengeByAction([TestCaseId=34|TestTitle=listChallengeByAction], null)</span>
+                <span class="method-start">45114 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=listChallengeByAction status=FAILURE method=ChallengeTestPlan.listChallengeByAction...)</span>
+                <span class="method-start">46400 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=listChallengeByAction status=FAILURE method=ChallengeTestPlan.listChallengeByAction...)</span>
+                <span class="method-start">46401 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.listChallengeByAction(com.wooplr.base.util.i...)</span>
+                <span class="method-start">46402 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=34|TestTitle=listChallengeByAction], null], public void com.wooplr.challenge.test.Chall...)</span>
+                <span class="method-start">46414 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">listChallengeByAction([TestCaseId=34|TestTitle=listChallengeByAction], null)</span>
+                <span class="method-start">46416 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=listChallengeByAction status=FAILURE method=ChallengeTestPlan.listChallengeByAction...)</span>
+                <span class="method-start">47333 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=listChallengeByAction status=FAILURE method=ChallengeTestPlan.listChallengeByAction...)</span>
+                <span class="method-start">47334 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.listChallengeByAction(com.wooplr.base.util.i...)</span>
+                <span class="method-start">47334 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=18|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@592b8638], public void c...)</span>
+                <span class="method-start">47350 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">makeChallengeLive([TestCaseId=18|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@592b8638)</span>
+                <span class="method-start">47352 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=makeChallengeLive status=FAILURE method=ChallengeTestPlan.makeChallengeLive(com.woo...)</span>
+                <span class="method-start">49359 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=makeChallengeLive status=FAILURE method=ChallengeTestPlan.makeChallengeLive(com.woo...)</span>
+                <span class="method-start">49360 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.makeChallengeLive(com.wooplr.base.util.inter...)</span>
+                <span class="method-start">49360 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=18|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@1af4f5b6], public void c...)</span>
+                <span class="method-start">49372 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">makeChallengeLive([TestCaseId=18|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@1af4f5b6)</span>
+                <span class="method-start">49374 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=makeChallengeLive status=FAILURE method=ChallengeTestPlan.makeChallengeLive(com.woo...)</span>
+                <span class="method-start">51722 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=makeChallengeLive status=FAILURE method=ChallengeTestPlan.makeChallengeLive(com.woo...)</span>
+                <span class="method-start">51722 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.makeChallengeLive(com.wooplr.base.util.inter...)</span>
+                <span class="method-start">51723 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=19|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@67454c9e], public void c...)</span>
+                <span class="method-start">51725 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">makeChallengeLive([TestCaseId=19|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@67454c9e)</span>
+                <span class="method-start">51727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=makeChallengeLive status=FAILURE method=ChallengeTestPlan.makeChallengeLive(com.woo...)</span>
+                <span class="method-start">53599 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=makeChallengeLive status=FAILURE method=ChallengeTestPlan.makeChallengeLive(com.woo...)</span>
+                <span class="method-start">53599 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.makeChallengeLive(com.wooplr.base.util.inter...)</span>
+                <span class="method-start">53599 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=19|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@59df9cf4], public void c...)</span>
+                <span class="method-start">53610 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">makeChallengeLive([TestCaseId=19|TestTitle=makeChallengeLive], com.wooplr.bean.ChallengeJAXB@59df9cf4)</span>
+                <span class="method-start">53612 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=makeChallengeLive status=FAILURE method=ChallengeTestPlan.makeChallengeLive(com.woo...)</span>
+                <span class="method-start">57242 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=makeChallengeLive status=FAILURE method=ChallengeTestPlan.makeChallengeLive(com.woo...)</span>
+                <span class="method-start">57243 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.makeChallengeLive(com.wooplr.base.util.inter...)</span>
+                <span class="method-start">57243 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=20|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@6479943b], public void com...)</span>
+                <span class="method-start">57263 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateChallenge([TestCaseId=20|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@6479943b)</span>
+                <span class="method-start">57264 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">58888 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">58888 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">58888 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=20|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@6f0babe8], public void com...)</span>
+                <span class="method-start">58908 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateChallenge([TestCaseId=20|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@6f0babe8)</span>
+                <span class="method-start">58910 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">60364 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">60364 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">60365 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=21|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@44ec15a4], public void com...)</span>
+                <span class="method-start">60366 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateChallenge([TestCaseId=21|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@44ec15a4)</span>
+                <span class="method-start">60367 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">61693 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">61694 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">61694 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=21|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@12d9a936], public void com...)</span>
+                <span class="method-start">61701 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateChallenge([TestCaseId=21|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@12d9a936)</span>
+                <span class="method-start">61701 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">65030 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">65030 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">65030 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=22|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@665755f5], public void com...)</span>
+                <span class="method-start">65032 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateChallenge([TestCaseId=22|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@665755f5)</span>
+                <span class="method-start">65033 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">66368 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">66368 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">66369 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=22|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@61d8c8b4], public void com...)</span>
+                <span class="method-start">66389 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateChallenge([TestCaseId=22|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@61d8c8b4)</span>
+                <span class="method-start">66390 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">67618 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">67619 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">67619 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=23|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@39c4d0cd], public void com...)</span>
+                <span class="method-start">67620 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateChallenge([TestCaseId=23|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@39c4d0cd)</span>
+                <span class="method-start">67621 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">68880 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">68881 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">68881 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=23|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@20b02ce6], public void com...)</span>
+                <span class="method-start">68901 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateChallenge([TestCaseId=23|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@20b02ce6)</span>
+                <span class="method-start">68902 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">70215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">70216 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">70216 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=24|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@213709b3], public void com...)</span>
+                <span class="method-start">70218 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateChallenge([TestCaseId=24|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@213709b3)</span>
+                <span class="method-start">70220 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">71538 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">71539 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">71539 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=24|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@39ef77c2], public void com...)</span>
+                <span class="method-start">71561 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateChallenge([TestCaseId=24|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@39ef77c2)</span>
+                <span class="method-start">71563 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">73224 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">73224 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">73225 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=25|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3f44bc95], public void com...)</span>
+                <span class="method-start">73226 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateChallenge([TestCaseId=25|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3f44bc95)</span>
+                <span class="method-start">73227 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">74883 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">74883 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">74883 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=25|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3de74140], public void com...)</span>
+                <span class="method-start">74900 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateChallenge([TestCaseId=25|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3de74140)</span>
+                <span class="method-start">74901 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">76276 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">76276 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">76276 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=26|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@1ef2ea97], public void com...)</span>
+                <span class="method-start">76278 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateChallenge([TestCaseId=26|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@1ef2ea97)</span>
+                <span class="method-start">76279 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">77772 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">77773 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">77773 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=26|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@5782db47], public void com...)</span>
+                <span class="method-start">77798 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateChallenge([TestCaseId=26|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@5782db47)</span>
+                <span class="method-start">77799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">79117 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">79118 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">79118 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=27|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@7f4f84d5], public void com...)</span>
+                <span class="method-start">79120 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateChallenge([TestCaseId=27|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@7f4f84d5)</span>
+                <span class="method-start">79122 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">82641 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">82641 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">82641 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=27|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@68c0dad5], public void com...)</span>
+                <span class="method-start">82664 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateChallenge([TestCaseId=27|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@68c0dad5)</span>
+                <span class="method-start">82666 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">84361 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">84361 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">84361 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=28|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@34fbb800], public void com...)</span>
+                <span class="method-start">84363 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateChallenge([TestCaseId=28|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@34fbb800)</span>
+                <span class="method-start">84364 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">86016 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">86017 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">86017 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=28|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3ea452ad], public void com...)</span>
+                <span class="method-start">86043 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateChallenge([TestCaseId=28|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3ea452ad)</span>
+                <span class="method-start">86044 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">87658 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">87659 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">87659 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=29|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@5ee429d7], public void com...)</span>
+                <span class="method-start">87660 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateChallenge([TestCaseId=29|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@5ee429d7)</span>
+                <span class="method-start">87661 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">89204 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">89205 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">89205 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=29|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3cee09f8], public void com...)</span>
+                <span class="method-start">89225 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">updateChallenge([TestCaseId=29|TestTitle=updateChallenge], com.wooplr.bean.ChallengeJAXB@3cee09f8)</span>
+                <span class="method-start">89227 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">90672 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=updateChallenge status=FAILURE method=ChallengeTestPlan.updateChallenge(com.wooplr....)</span>
+                <span class="method-start">90672 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.updateChallenge(com.wooplr.base.util.interna...)</span>
+                <span class="method-start">90672 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTestMethod([[TestCaseId=31|TestTitle=validateListChallenge], null], public void com.wooplr.challenge.test.Chall...)</span>
+                <span class="method-start">90677 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateListChallenge([TestCaseId=31|TestTitle=validateListChallenge], null)</span>
+                <span class="method-start">90678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">_takeScreenShotOnFailure([TestResult name=validateListChallenge status=SUCCESS method=ChallengeTestPlan.validateListChallenge...)</span>
+                <span class="method-start">91908 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=validateListChallenge status=SUCCESS method=ChallengeTestPlan.validateListChallenge...)</span>
+                <span class="method-start">91908 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTestMethod(public void com.wooplr.challenge.test.ChallengeTestPlan.validateListChallenge(com.wooplr.base.util.i...)</span>
+                <span class="method-start">91909 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterTestSuite</span>
+                <span class="method-start">92013 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

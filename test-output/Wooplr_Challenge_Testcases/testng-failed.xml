@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Wooplr_Challenge_Testcases]" parallel="tests">
+  <parameter name="healthCheck" value="false"/>
+  <listeners>
+    <listener class-name="com.wooplr.base.reporter.WooplrReport"/>
+    <listener class-name="com.wooplr.base.controller.TestRetryListener"/>
+    <listener class-name="com.wooplr.base.reporter.WooplrEmailReport"/>
+  </listeners>
+  <test name="Wooplr_Challenge Testscripts - Sanity(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.wooplr.challenge.test.ChallengeTestPlan">
+        <methods>
+          <include name="listChallengeByAction" invocation-numbers="0 0 1 1 2 2"/>
+          <include name="_takeScreenShotOnFailure"/>
+          <include name="makeChallengeLive" invocation-numbers="0 0 1 1"/>
+          <include name="challengeFlowTest" invocation-numbers="0 0"/>
+          <include name="deleteChallenge" invocation-numbers="0 0"/>
+          <include name="beforeTestMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeTestSuite"/>
+          <include name="afterTestMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTestSuite"/>
+          <include name="updateChallenge" invocation-numbers="0 0 1 1 2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 9"/>
+        </methods>
+      </class> <!-- com.wooplr.challenge.test.ChallengeTestPlan -->
+    </classes>
+  </test> <!-- Wooplr_Challenge Testscripts - Sanity(failed) -->
+</suite> <!-- Failed suite [Wooplr_Challenge_Testcases] -->
